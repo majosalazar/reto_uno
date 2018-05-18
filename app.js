@@ -1,7 +1,8 @@
-window.onload = function() {
-    var name = prompt("¿cuál es tu nombre?");
-    document.getElementById("name").innerText = name;
-
+function myFunction() {
+    
+    document.getElementById("demo").innerHTML = "1ra respuesta";
+}
+ /*   
     var wantToPlay = prompt("¿quieres jugar? s/n");
     if (wantToPlay.toLowerCase() == "s") {
         var answer1 = prompt("¿han egresado hombres en Laboratoria? s/n");
@@ -36,4 +37,4 @@ window.onload = function() {
     } else {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
-}
+    */
