@@ -1,7 +1,11 @@
-function myFunction() {
-    
-    document.getElementById("demo").innerHTML = "1ra respuesta";
+
+function correcta() {
+    document.getElementById("repuesta").innerHTML = "respuesta correcta";     
 }
+
+function incorrecta() {
+    document.getElementById("respuesta").innerHTML = "respuesta correcta";
+}    
  /*   
     var wantToPlay = prompt("¿quieres jugar? s/n");
     if (wantToPlay.toLowerCase() == "s") {
